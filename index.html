@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="pop-up hidden">
+            <div class="pop-up-content">
+
+                <span class="close-button">&times;</span>
+
+                <h2>Success</h2>
+
+                <p>Registration successful!</p>
+
+                <div class="user-name"></div>
+
+                <button class="close">Close</button>
+
+            </div>
+        </div>
+
+        <form action="" id="form">
+
+            <fieldset>
+
+                <legend>Personal Information</legend>
+
+                <label for="name">First Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Gmail:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br>
+
+            </fieldset>
+
+            <br>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </main>
+
+    <script type="module" src="./script.js"></script>
+
+</body>
+
+</html>
